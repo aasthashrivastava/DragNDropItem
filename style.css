@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+}
+#right{
+    width: 400px;
+    height: auto;
+    margin: 20px;
+    border: 1px solid black;
+}
+#left{
+    margin: 20px;
+    width: 200px;
+    height: 300px;
+    border: 1px solid black;
+}
+.box{
+    margin: 5px;
+    padding: 10px;
+    font-size: 40px;
+    background-color:skyblue;
+    display: flex;
+    justify-content: space-between;
+}
